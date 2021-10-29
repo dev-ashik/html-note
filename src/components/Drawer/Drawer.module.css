@@ -1,0 +1,9 @@
+.drawer {
+    width: 150px;
+    padding: 20px;
+}
+
+.drawerMenu {
+    color: white;
+    text-decoration: none;
+}

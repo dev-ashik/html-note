@@ -1,0 +1,77 @@
+.typeDiv {
+    padding: 20px; 
+    /* width: 100%; */
+    margin: 10px 0;
+    border: 2px solid #a3a3bd; 
+}
+hr {
+    color: lightgray;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    color: #db6a4e;
+    text-align: center;
+    font-size: 30px;
+}
+
+.titleLink {
+    margin: 0;
+    padding: 0;
+    color: #db6a4e;
+    text-align: center;
+    text-decoration: none;
+    /* border-bottom: 1px solid #db6a4e; */
+    
+}
+
+.content {
+    padding: 10px;
+    margin-top: 10px;
+    min-height: 100px;
+}
+
+.codeDiv {
+    margin: 30px;
+    color: #c2c0c0;
+    padding: 20px 30px;
+    background-color: #222835;
+    border: 2px solid #723b5d;
+    margin-top: 1px;
+}
+
+
+.codeRunDiv {
+    margin: 30px;
+    margin-bottom: 0;
+    color: #c2c0c0;
+    padding: 10px 20px;
+    background-color: #242831;
+    border: 2px solid #4c5f79;
+    font-size: 20px;
+    /* height: 300px; */
+}
+
+
+.codeColorGreen {
+    /* color: #00a651; */
+    color: #19c26a;
+}
+.codeColorDarkRed {
+    color: #b94c9e;
+    /* color: #7c496f; */
+}
+.codeColorYellow {
+    /* color: #ecf58a; */
+    color: #cbd36f;
+}
+.codeColor4 {
+    color: #a783dc;
+}
+.codeColorWhite {
+    color: white;
+}
+.codeColorComment {
+    color: rgb(126, 114, 114);
+}
