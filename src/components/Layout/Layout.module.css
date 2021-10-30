@@ -8,6 +8,8 @@
 .contant {
     display: flex;
     justify-content: space-between;
+    /* padding-top: 80px; */
+    /* box-shadow: 1px 1px 5px lightgray; */
 }
 
 .children {
@@ -15,9 +17,19 @@
     width: 100%;
     min-height: 650px;
     /* background-color: #28293d; */
+    padding-top: 80px;
 }
 
 .drawer {
     background-color: #242636;
     border-left: 1px solid #010111;
+    padding-top: 60px;
+}
+
+.navber {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 1px 1px 5px gray !important;
 }

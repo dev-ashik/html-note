@@ -10,11 +10,13 @@ import {
 const Drawer = () => {
     return (
         <div className={styles.drawer}>
-            <Link className={styles.drawerMenu} to="/">start</Link><br />
-            <Link className={styles.drawerMenu} to="/abbreviationsortitle">abbreviations or Title</Link><br />
-            <Link className={styles.drawerMenu} to="address">address for the author/owner</Link><br />
-            <Link className={styles.drawerMenu} to="">Home 4</Link><br />
-            <Link className={styles.drawerMenu} to="">Home 5</Link><br />
+            <Link className={styles.drawerMenu} to="/">start</Link><br /><br />
+            <Link className={styles.drawerMenu} to="/abbreviationsortitle">abbreviations or Title</Link><br /><br />
+            <Link className={styles.drawerMenu} to="/address">address for the author/owner</Link><br /><br />
+            <Link className={styles.drawerMenu} to="/attributes">Attributes</Link><br /><br />
+            <Link className={styles.drawerMenu} to="/break">Break</Link><br /><br />
+            <Link className={styles.drawerMenu} to="/blockquote">Blockquote</Link><br /><br />
+            <Link className={styles.drawerMenu} to="/style">Style</Link><br /><br />
         </div>
     );
 };

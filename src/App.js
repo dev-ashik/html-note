@@ -7,8 +7,14 @@ import {
   Link
 } from "react-router-dom";
 import PageNotFound from './components/PageNotFound/PageNotFound';
-import AbbreviationsOrTitle from './components/AbbreviationsOrTitle/AbbreviationsOrTitle';
-import Address from './components/Address/Address';
+import AbbreviationsOrTitle from './components/Details/AbbreviationsOrTitle/AbbreviationsOrTitle';
+import Address from './components/Details/Address/Address';
+import Attributes from './components/Details/Attributes/Attributes';
+import Style from './components/Details/Style/Style';
+import Media from './components/Details/Media/Media';
+import Paragraph from './components/Details/Paragraph/Paragraph';
+import Break from './components/Details/Break/Break';
+import Blockquote from './components/Details/Blockquote/Blockquote';
 
 function App() {
   return (
@@ -26,6 +32,21 @@ function App() {
           </Route>
           <Route path="/address">
             <Address/>
+          </Route>
+          <Route path="/attributes">
+            <Attributes/>
+          </Route>
+          <Route path="/media">
+            <Media/>
+          </Route>
+          <Route path="/style">
+            <Style/>
+          </Route>
+          <Route path="/break">
+            <Break/>
+          </Route>
+          <Route path="/blockquote">
+            <Blockquote/>
           </Route>
           <Route  path="*">
             <PageNotFound />

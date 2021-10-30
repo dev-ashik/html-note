@@ -1,6 +1,6 @@
 import React from 'react';
-import Layout from '../Layout/Layout';
-import commonStyles from '../Common/Common.module.css';
+import Layout from '../../Layout/Layout';
+import commonStyles from '../../Common/Common.module.css';
 
 const AbbreviationsOrTitle = () => {
     return (
